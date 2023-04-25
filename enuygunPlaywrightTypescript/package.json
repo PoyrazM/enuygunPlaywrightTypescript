@@ -1,0 +1,16 @@
+{
+  "name": "enuygunplaywrighttypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "signUpTests": "npx playwright test /tests/SignUpTests.spec.ts",
+    "openReport": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2"
+  }
+}
